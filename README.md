@@ -15,7 +15,12 @@
 <!-- Check! -->
 <!-- Added Emojicons. When users click on '?' it turns into a tree! -->
 - As a user, if I select the winning square the question mark will become a treasure emoji.
+<!-- Check! -->
+<!-- added treasure and bomb locations to state
+added a componentDidMount to create random numbers
+set the state values of treasure and bomb to the random numbers -->
 - As a user, if I select the losing square the question mark will become a bomb emoji.
+<!-- Check! -->
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at 5 and decrements one every time I click on a square that is not the treasure nor the bomb.
 - As a user, I can see a message informing me that I won the game if I select the square that contains the treasure.
 - As a user, I can see a message informing me that I lost the game if I select the square that contains the bomb.
